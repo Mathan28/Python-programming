@@ -1,9 +1,6 @@
-c=list(raw_input())
-d=[]
-a=len(c)
-for  i  in range(0,a):
-    d.append(c[a-1-i])
-if(d==c):
+ax=input()
+a=ax[::-1]
+if(a==ax):
     print("yes")
 else:
-    print("no")
+    print('no')
